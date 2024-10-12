@@ -93,7 +93,7 @@ body{
 }
 .menu{
     position: fixed;
-    padding-left: 90px;
+    padding-left: 60px;
     padding-top:60px;
     text-align:start ;
     display: flex;
@@ -111,9 +111,12 @@ body{
     align-items: center;
     padding: 10px;
     background-color: #f2f2f2;
+    font-size: 21px;
+    text-align: start;
 }
 
 .menu nav ul li a {
+    line-height:30px;
     flex-grow: 1; 
     padding-left: 10px; 
     text-decoration: none; 
@@ -122,7 +125,10 @@ body{
 }
 
 .menu nav ul li i {
-    font-size: 18px; 
+    font-size: center;
+    width: 22.5px;
+    height: 20px;
+    font-size: 20px; 
     color: #ABBED7;
 }
 
