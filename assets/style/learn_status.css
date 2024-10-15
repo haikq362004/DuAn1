@@ -151,10 +151,48 @@ body{
     height: calc(100vh - 150px);
     overflow-y: auto;
     overflow-x: hidden;
-    
-    
-   
 }
 .learn::-webkit-scrollbar {
     display: none; 
+}
+.learn_container{
+    margin-left: 480px;
+
+}
+.result{
+    display: flex;
+    margin-left: 50px;
+    background-color:#ABBED7 ;
+    height:150px;
+    width: 800px;
+    padding: 15px;
+    border-radius: 10px ;
+    gap:80px;
+    line-height: 40px;
+}
+.result span{
+    color:#333;
+    font-size:20px;
+    font-weight: 600;
+}
+.point{
+    margin-left: 50px;
+}
+.point th,td{
+    text-align: center;
+    padding: 10px;
+    border:1px solid #333;
+    color: #333;
+}
+.achivement h1 {
+    background: linear-gradient(45deg,blue,red,red);
+    -webkit-background-clip: text;
+    color:transparent;
+    padding:20px;
+}
+.text_color{
+    color:red;
+}
+#text_color{
+    color: red;
 }
