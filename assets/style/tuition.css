@@ -159,6 +159,9 @@ body{
     margin-top: 20px;
     
 }
+.tuition_option h5{
+    font-size: 20px;
+}
 .pay_tuition{
     text-align: center;
     background-color: #6D7ED5;
@@ -210,11 +213,7 @@ body{
     -webkit-background-clip: text;
     color: transparent;
 }
-.tuition_pay hr{
-    height: 1px;
-    background-color: #333;
-    
-}
+
 .status th{
     font-size: 15px;
 }

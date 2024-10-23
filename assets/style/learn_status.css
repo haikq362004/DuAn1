@@ -176,15 +176,25 @@ body{
     font-size:20px;
     font-weight: 600;
 }
-.point{
+.point {
     margin-left: 50px;
 }
-.point th,td{
+.point table {
+     
+    border-collapse: collapse; 
+}
+
+.point th, .point td {
     text-align: center;
     padding: 10px;
-    border:1px solid #333;
+    border: 1px solid #333;
     color: #333;
 }
+
+.text_color {
+    background-color: #f2f2f2; 
+}
+
 .achivement h1 {
     background: linear-gradient(45deg,blue,red,red);
     -webkit-background-clip: text;

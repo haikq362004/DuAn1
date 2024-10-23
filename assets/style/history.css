@@ -171,6 +171,9 @@ body{
     margin-top: 20px;
     
 }
+.tuition_option h5{
+    font-size: 20px;
+}
 .pay_tuition{
     text-align: center;
     background-color: #6D7ED5;

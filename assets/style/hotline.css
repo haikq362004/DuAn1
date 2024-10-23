@@ -201,6 +201,7 @@ hr{
 .FQAs h3 {
     color: #333;
     margin-left:40px;
+    font-size: 25px;
 }
 .FQAs a{
     text-decoration: none;
@@ -208,7 +209,9 @@ hr{
     color: red;
 }
 .FQAs h5
-{
+{   
+    line-height: 100px;
+    font-size:18px ;
     margin-left: 50px;
 }
 .FQA_header{
