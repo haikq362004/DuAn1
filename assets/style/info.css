@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 body{
-    
+    font-family: "roboto",sans-serif;
     color:#ABBED7 ;
     background-color: #ABBED7;
 }
+
 .roboto-bold {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -111,6 +112,7 @@ body{
     background-color: #f2f2f2;
     font-size: 21px;
     text-align: start;
+    
 }
 
 .menu nav ul li a {
@@ -130,30 +132,44 @@ body{
     color: #ABBED7;
 }
 
-.info_student{
-    gap:70px;
-    display: flex;
-    justify-content: center;
+.infomation{
+    
+    padding-top:30px ;
     margin-left: 500px;
     height: calc(100vh - 150px);
     overflow-y: auto;
     overflow-x: hidden;
-    background-color: #ADD8E6;
-    border-radius: 20px;
-    width: 900px;
-    height: 300px;
-   
+    width: 820px;
 }
-.info_student::-webkit-scrollbar {
+.infomation::-webkit-scrollbar {
     display: none; 
 }
-.infomation{
-    color: #333;
-    margin-top: 30px;
+
+.infomation h1{
+    color: #484ACB;
+}
+.info_student{
+    margin-left:40px ;
+    padding: 20px;
+    border:2px solid #000;
+    color:#000;
+    display: flex;
+    align-items: center;
+    gap: 90px;
+
+}
+.info_student img{
+    width: 200px;
+    height: 200px;
+    border-radius: 90px;
     
 }
-
-.score{
-    color: black;
-    padding:30px    
+td,th{
+    padding-left: 20px;
+    color: #000;
+}
+.info_learn{
+    border: 2px solid #000;
+    margin-left: 40px;
+    padding: 20px;
 }

@@ -4,15 +4,11 @@
     box-sizing: border-box;
 }
 body{
-    
+    font-family: "roboto",sans-serif;
     color:#ABBED7 ;
     background-color: #ABBED7;
 }
-.roboto-bold {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
+
 .header{
     display: flex;
     align-items: center;
@@ -144,6 +140,9 @@ body{
 .teacher_container::-webkit-scrollbar {
     display: none; 
 }
+.teacher_container{
+    
+}
 .teacher_container h1{
     background: linear-gradient(45deg,blue,red);
     color: transparent;
@@ -151,6 +150,9 @@ body{
     padding:20px;
 }
 .teacher_list{
+    
+}
+.teacher_box{
     background-color: #ABBED7;
     display: flex;
     align-items: center;
@@ -160,14 +162,13 @@ body{
     border-radius: 20px;
 }
 .teacher_img img{
-    width: 100px;
-    height: 100px;
+   
     border-radius: 90px;
     margin-right: 100px;
     margin-left: 100px;
 }
 .teacher_info {
-    margin-right: 100px;
+    margin-right: 10px;
 }
 .teacher_info h4 {
     color: #333;
